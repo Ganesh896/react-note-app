@@ -1,0 +1,14 @@
+.note {
+  background: #272636;
+  white-space: pre-wrap;
+}
+
+.delete_icon {
+  cursor: pointer;
+  color: #f32d17;
+  transition: 0.5s;
+}
+
+.delete_icon:hover {
+  color: #c1000f;
+}

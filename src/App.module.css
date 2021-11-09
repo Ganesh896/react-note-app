@@ -1,0 +1,28 @@
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.container h1 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: clamp(25px, 5vw, 32px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_btn {
+  padding: 10px;
+  background-color: #555;
+  font-size: clamp(15px, 3vw, 17px);
+}
+.header_btn:hover {
+  opacity: 0.8;
+  background-color: #555;
+}
